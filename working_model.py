@@ -42,3 +42,7 @@ if st.button("Predict Churn"):
     st.write("Churn Prediction:", "Churn" if prediction[0] == 1 else "No Churn")
 
 #run script: streamlit run working_model.py
+
+#I would say we need to backout the last 2 commits and then make a packages file, along with taking out the venv file to save space.
+#clean up .py code and .pynb code
+#add more context and explainations to python notebook. 
